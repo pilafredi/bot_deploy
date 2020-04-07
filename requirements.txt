@@ -5,7 +5,7 @@ chardet==3.0.4
 constants==0.6.0
 cryptography==2.8
 distlib==0.3.0
-Django==1.10.6
+Django==1.11.28
 docutils==0.13.1
 filelock==3.0.12
 future==0.18.2
