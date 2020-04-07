@@ -22,8 +22,8 @@ def handler_text(message):
         bot.send_chat_action(message.from_user.id, 'upload_photo')
         bot.send_photo(message.from_user.id, img)
         img.close()
-    elif message.text == 'Група МС-14':
-        url = 'http://www.chtk.ck.ua/main/images/Rozklad/II_sem/14.jpg'
+    elif message.text == 'Група МС-14/15':
+        url = 'http://www.chtk.ck.ua/main/images/Rozklad/II_sem/14_15.jpg'
         unllib2.urlretrieve(url, 'url_image.jpg')
         img = open('url_image.jpg', 'rb')
         bot.send_chat_action(message.from_user.id, 'upload_photo')
