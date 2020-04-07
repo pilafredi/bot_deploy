@@ -9,7 +9,7 @@ bot = telebot.TeleBot('1130800870:AAEeQ6SZvJP9gYFotYOKMfUuvn9oeLU27XQ')
 @bot.message_handler(commands=['start'])
 def handler_start(message):
     user_markup = telebot.types.ReplyKeyboardMarkup(True, True)
-    user_markup.row('Група МС-42', 'Група МС-14')
+    user_markup.row('Група МС-42', 'Група МС-14/15')
     bot.send_message(message.from_user.id, 'Добро пожаловать..', reply_markup=user_markup)
 
 
