@@ -4,7 +4,7 @@ from telebot import types
 import urllib.request as urllib2
 
 # токен боту
-bot = telebot.TeleBot('1198464702:AAFScXmPYXtLuj2WVUWeZL6OUTz3EyNt1mY')
+bot = telebot.TeleBot('1130800870:AAEeQ6SZvJP9gYFotYOKMfUuvn9oeLU27XQ')
 
 # Основне меню
 @bot.message_handler(commands=['start'])
