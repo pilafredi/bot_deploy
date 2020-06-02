@@ -34,17 +34,17 @@ def all_button(message):
 # (Механіко-технологічне)
     elif message.text == 'Відділення механіко-технологічне':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
-        btn1 = types.KeyboardButton('1 Курс')
-        btn2 = types.KeyboardButton('2 Курс')
-        btn3 = types.KeyboardButton('3 Курс')
-        btn4 = types.KeyboardButton('4 Курс')
+        btn1 = types.KeyboardButton('1 Курc')
+        btn2 = types.KeyboardButton('2 Курc')
+        btn3 = types.KeyboardButton('3 Курc')
+        btn4 = types.KeyboardButton('4 Курc')
         btn5 = types.KeyboardButton('Повернутися в меню')
         markup.add(btn1, btn2, btn3, btn4, btn5)
         send_mess = "Виберіть курс"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
 # 1 курс (Механіко-технологічне)
-    elif message.text == '1 Курс':
+    elif message.text == '1 Курc':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
         btn1 = types.KeyboardButton('МС-12/17')
         btn2 = types.KeyboardButton('МС-14/15')
@@ -69,7 +69,7 @@ def all_button(message):
         img.close()
 
 # 2 курс (Механіко-технологічне)
-    elif message.text == '2 Курс':
+    elif message.text == '2 Курc':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
         btn1 = types.KeyboardButton('МС-21')
         btn2 = types.KeyboardButton('МС-22')
@@ -113,7 +113,7 @@ def all_button(message):
         img.close()
 
 # 3 курс (Механіко-технологічне)
-    elif message.text == '3 Курс':
+    elif message.text == '3 Курc':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
         btn1 = types.KeyboardButton('МС-31')
         btn2 = types.KeyboardButton('МС-32')
@@ -157,7 +157,7 @@ def all_button(message):
         img.close()
 
 # 4 курс (Механіко-технологічне)
-    elif message.text == '4 Курс':
+    elif message.text == '4 Курc':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
         btn1 = types.KeyboardButton('МС-41')
         btn2 = types.KeyboardButton('МС-42')
