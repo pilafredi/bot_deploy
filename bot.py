@@ -38,18 +38,22 @@ def all_button(message):
         btn2 = types.KeyboardButton('2 Курc')
         btn3 = types.KeyboardButton('3 Курc')
         btn4 = types.KeyboardButton('4 Курc')
-        btn5 = types.KeyboardButton('Повернутися в меню')
-        markup.add(btn1, btn2, btn3, btn4, btn5)
+        btn5 = types.KeyboardButton('Повернутися до відділень')
+        btn6 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
         send_mess = "Виберіть курс"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
+        
+        btn4 = types.KeyboardButton('Повернутися до курсів') # ua
 # 1 курс (Механіко-технологічне)
     elif message.text == '1 Курc':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
         btn1 = types.KeyboardButton('МС-12/17')
         btn2 = types.KeyboardButton('МС-14/15')
-        btn3 = types.KeyboardButton('Повернутися в меню')
-        markup.add(btn1, btn2, btn3)
+        btn3 = types.KeyboardButton('Повернутися до курcів')
+        btn4 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4)
         send_mess = "Виберіть групу"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
@@ -75,8 +79,9 @@ def all_button(message):
         btn2 = types.KeyboardButton('МС-22')
         btn3 = types.KeyboardButton('МС-24')
         btn4 = types.KeyboardButton('МС-27')
-        btn5 = types.KeyboardButton('Повернутися в меню')
-        markup.add(btn1, btn2, btn3, btn4, btn5)
+        btn5 = types.KeyboardButton('Повернутися до курcів')
+        btn6 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
         send_mess = "Виберіть групу"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
@@ -119,8 +124,9 @@ def all_button(message):
         btn2 = types.KeyboardButton('МС-32')
         btn3 = types.KeyboardButton('МС-34')
         btn4 = types.KeyboardButton('МС-37')
-        btn5 = types.KeyboardButton('Повернутися в меню')
-        markup.add(btn1, btn2, btn3, btn4, btn5)
+        btn5 = types.KeyboardButton('Повернутися до курcів')
+        btn6 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
         send_mess = "Виберіть групу"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
@@ -162,8 +168,9 @@ def all_button(message):
         btn1 = types.KeyboardButton('МС-41')
         btn2 = types.KeyboardButton('МС-42')
         btn3 = types.KeyboardButton('МС-44')
-        btn4 = types.KeyboardButton('Повернутися в меню')
-        markup.add(btn1, btn2, btn3, btn4)
+        btn4 = types.KeyboardButton('Повернутися до курcів')
+        btn5 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5)
         send_mess = "Виберіть групу"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
@@ -198,8 +205,9 @@ def all_button(message):
         btn2 = types.KeyboardButton('2 Курс')
         btn3 = types.KeyboardButton('3 Курс')
         btn4 = types.KeyboardButton('4 Курс')
-        btn5 = types.KeyboardButton('Повернутися в меню')
-        markup.add(btn1, btn2, btn3, btn4, btn5)
+        btn5 = types.KeyboardButton('Повернутися до відділень')
+        btn6 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
         send_mess = "Виберіть курс"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
@@ -211,8 +219,9 @@ def all_button(message):
         btn3 = types.KeyboardButton('МС-18')
         btn4 = types.KeyboardButton('МС-19')
         btn5 = types.KeyboardButton('МС-108')
-        btn6 = types.KeyboardButton('Повернутися в меню')
-        markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
+        btn6 = types.KeyboardButton('Повернутися до курсів')
+        btn7 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7)
         send_mess = "Виберіть групу"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
@@ -264,8 +273,9 @@ def all_button(message):
         btn3 = types.KeyboardButton('МС-28')
         btn4 = types.KeyboardButton('МС-29')
         btn5 = types.KeyboardButton('МС-208')
-        btn6 = types.KeyboardButton('Повернутися в меню')
-        markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
+        btn6 = types.KeyboardButton('Повернутися до курсів')
+        btn7 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7)
         send_mess = "Виберіть групу"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
@@ -316,8 +326,9 @@ def all_button(message):
         btn2 = types.KeyboardButton('МС-36')
         btn3 = types.KeyboardButton('МС-38')
         btn4 = types.KeyboardButton('МС-39')
-        btn5 = types.KeyboardButton('Повернутися в меню')
-        markup.add(btn1, btn2, btn3, btn4, btn5)
+        btn5 = types.KeyboardButton('Повернутися до курсів')
+        btn6 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
         send_mess = "Виберіть групу"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
@@ -359,8 +370,9 @@ def all_button(message):
         btn1 = types.KeyboardButton('МС-43')
         btn2 = types.KeyboardButton('МС-46')
         btn3 = types.KeyboardButton('МС-49')
-        btn4 = types.KeyboardButton('Повернутися в меню')
-        markup.add(btn1, btn2, btn3, btn4)
+        btn4 = types.KeyboardButton('Повернутися до курсів')
+        btn5 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5)
         send_mess = "Виберіть групу"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
@@ -439,6 +451,17 @@ def all_button(message):
     elif message.text == 'Контакти':
         send_mess = f"<b>Електронна пошта:</b> chhtk@ukr.net<b>\nНомер телефону:</b> (0472) 66-17-33\n<b>Адреса:</b> м.Черкаси, вул.Сумгаїтська, 13"
         bot.send_message(message.chat.id, send_mess, parse_mode='html')
+
+# Повернення до відділень
+    elif message.text == 'Повернутися до відділень':
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=1)
+        btn1 = types.KeyboardButton('Відділення механіко-технологічне')
+        btn2 = types.KeyboardButton('Відділення архітектури та мистецтва')
+        btn3 = types.KeyboardButton('Кваліфікований робітник')
+        btn4 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4)
+        send_mess = "Ваше відділення"
+        bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
 
 # не дає зупинити бота при виникненні помилки
