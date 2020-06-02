@@ -113,7 +113,7 @@ def all_button(message):
         img.close()
 
 # 3 курс (Механіко-технологічне)
-    elif message.text == '2 Курс':
+    elif message.text == '3 Курс':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
         btn1 = types.KeyboardButton('МС-31')
         btn2 = types.KeyboardButton('МС-32')
@@ -204,7 +204,7 @@ def all_button(message):
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
 # 1 курс (Архітектура та мистецтва)
-    elif message.text == '2 Курс':
+    elif message.text == '1 Курс':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
         btn1 = types.KeyboardButton('МС-13')
         btn2 = types.KeyboardButton('МС-16')
@@ -310,7 +310,7 @@ def all_button(message):
         img.close()
 
 # 3 курс (Архітектура та мистецтво)
-    elif message.text == '2 Курс':
+    elif message.text == '3 Курс':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
         btn1 = types.KeyboardButton('МС-33')
         btn2 = types.KeyboardButton('МС-36')
