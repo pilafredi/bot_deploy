@@ -198,7 +198,7 @@ def all_button(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
 
-# (Архітектура та мистецтва)
+# (Архітектура та мистецтва(Повторення))
     elif message.text == 'Відділення архітектури та мистецтва':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
         btn1 = types.KeyboardButton('1 Курс')
@@ -461,6 +461,32 @@ def all_button(message):
         btn4 = types.KeyboardButton('Повернутися в меню')
         markup.add(btn1, btn2, btn3, btn4)
         send_mess = "Ваше відділення"
+        bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
+        
+# (Механіко-технологічне(Повернення))
+    elif message.text == 'Повернутися до курcів':
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
+        btn1 = types.KeyboardButton('1 Курc')
+        btn2 = types.KeyboardButton('2 Курc')
+        btn3 = types.KeyboardButton('3 Курc')
+        btn4 = types.KeyboardButton('4 Курc')
+        btn5 = types.KeyboardButton('Повернутися до відділень')
+        btn6 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
+        send_mess = "Виберіть курс"
+        bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
+        
+ # (Архітектура та мистецтва(Повторення))
+    elif message.text == 'Повернутися до курсів':
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
+        btn1 = types.KeyboardButton('1 Курс')
+        btn2 = types.KeyboardButton('2 Курс')
+        btn3 = types.KeyboardButton('3 Курс')
+        btn4 = types.KeyboardButton('4 Курс')
+        btn5 = types.KeyboardButton('Повернутися до відділень')
+        btn6 = types.KeyboardButton('Повернутися в меню')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
+        send_mess = "Виберіть курс"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
 
 
